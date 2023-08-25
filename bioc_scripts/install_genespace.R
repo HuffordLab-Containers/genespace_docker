@@ -35,4 +35,4 @@ BiocManager::install(c(
 install.packages("data.table")
 BiocManager::install("IRanges")
 BiocManager::install("GenomicRanges")
-devtools::install_github("jtlovell/GENESPACE@master", auth_token = "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")
+devtools::install_github("jtlovell/GENESPACE@master", auth_token = "")
