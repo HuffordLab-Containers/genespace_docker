@@ -1,5 +1,5 @@
 install.packages("BiocManager", repos="https://cran.rstudio.com")
-BiocManager::install(version="3.16", update=TRUE, ask=FALSE)
+BiocManager::install(version="3.17", update=TRUE, ask=FALSE)
 BiocManager::install(c('devtools'))
 install.packages("pacman")
 install.packages("RcppParallel")
@@ -35,4 +35,4 @@ BiocManager::install(c(
 install.packages("data.table")
 BiocManager::install("IRanges")
 BiocManager::install("GenomicRanges")
-devtools::install_github("jtlovell/GENESPACE@dev", auth_token = "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")
+devtools::install_github("jtlovell/GENESPACE@master", auth_token = "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")

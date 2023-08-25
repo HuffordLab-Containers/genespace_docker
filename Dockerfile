@@ -1,10 +1,10 @@
 # The suggested name for this image is: bioconductor/bioconductor_docker:devel
 ARG BASE_IMAGE=rocker/rstudio
-ARG BASE_TAG=4.2.2
+ARG BASE_TAG=4.3.1
 FROM $BASE_IMAGE:$BASE_TAG
 
 ## Set Dockerfile version number
-ARG BIOCONDUCTOR_VERSION=3.16
+ARG BIOCONDUCTOR_VERSION=3.17
 
 ##### IMPORTANT ########
 ## The PATCH version number should be incremented each time
